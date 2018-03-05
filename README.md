@@ -15,4 +15,4 @@ A movement-detection mini-game that uses a camera to recognize and detect user m
 <br><https://youtu.be/60s0ZnvyU1s>
 
 ## Collaborators 
-JeongKyeong Kang, JungYun Eum, Pierre Bachade, Ferran Ruiz
+JeongKyeong Kang, JungYun Eum, Pierre Bechade, Ferran Ruiz
