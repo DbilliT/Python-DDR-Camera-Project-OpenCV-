@@ -1,0 +1,27 @@
+﻿Build started 06/12/2016 19:36:46.
+     1>Project "C:\Users\DbilliT\Downloads\Win32Project4\Win32Project4\Win32Project4\Win32Project4.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (Win32Project4.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\Users\DbilliT\Downloads\Win32Project4\Win32Project4\\opencv\build\include /I"C:\Users\DbilliT\Downloads\Win32Project4\Win32Project4\\SFML-2.4.1\include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Input.cpp
+         Input.cpp
+     1>Input.cpp(12): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>Input.cpp(38): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+     1>Input.cpp(39): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\DbilliT\Downloads\Win32Project4\Win32Project4\Release\Team13_DIP_DANCECV.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Users\DbilliT\Downloads\Win32Project4\Win32Project4\\opencv\build\x86\vc12\lib /LIBPATH:"C:\Users\DbilliT\Downloads\Win32Project4\Win32Project4\\SFML-2.4.1\lib" opencv_world300.lib "sfml-audio.lib" "sfml-graphics.lib" "sfml-window.lib" "sfml-system.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\DbilliT\Downloads\Win32Project4\Win32Project4\Release\Team13_DIP_DANCECV.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\DbilliT\Downloads\Win32Project4\Win32Project4\Release\Team13_DIP_DANCECV.lib" /MACHINE:X86 /SAFESEH Release\Input.obj
+         Release\Scene.obj
+         Release\Source.obj
+         Release\MidiParserIP.obj
+         Release\Audio.obj
+         Release\Resource.obj
+         Generating code
+         0 of 690 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
+           0 functions had inline decision re-evaluated but remain unchanged
+         Finished generating code
+         Win32Project4.vcxproj -> C:\Users\DbilliT\Downloads\Win32Project4\Win32Project4\Release\Team13_DIP_DANCECV.exe
+     1>Done Building Project "C:\Users\DbilliT\Downloads\Win32Project4\Win32Project4\Win32Project4\Win32Project4.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.53
